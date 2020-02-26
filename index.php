@@ -7,5 +7,10 @@
     </head>
     <body>
         <?php include_once('header.php')?>
+        <div id="areaProdutos">
+            <div class="container">
+                
+            </div>
+        </div>
     </body>
 </html>

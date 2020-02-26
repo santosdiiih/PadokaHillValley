@@ -1,5 +1,5 @@
 /*RESET CSS*/
-body, nav,figure, ul, li{
+body, nav,figure, ul, li, a{
     padding: 0;
     margin: 0;
     text-decoration: none;
@@ -13,10 +13,15 @@ body, nav,figure, ul, li{
     margin-left: auto;
     margin-right: auto;
     box-sizing: border-box;
-    background-color: green;
+    /* background-color: green; */
 }
 
 img{
+    width: inherit;
+    height: inherit;
+}
+
+a{
     width: inherit;
     height: inherit;
 }
@@ -26,7 +31,7 @@ img{
 nav{
     width: 100%;
     height: 77px;
-    background-color: gray;
+    background-color: #17150f;
 }
 
 nav .container{
@@ -38,6 +43,12 @@ nav .container{
     height: 65px;
     background-color: aqua;
     float: left;
+    border-radius: 15px;
+    border: 1px solid black;
+}
+
+#logo img{
+    border-radius: 14px;
 }
 
 #containerMenu{
@@ -45,34 +56,98 @@ nav .container{
     height: 45px;
     margin-left: 25px;
     margin-top: 20px;
-    background-color: fuchsia;
     float: left;
+}
+
+#containerMenu a{
+    text-decoration: none;
+    color: #000;
 }
 
 #containerMenu li{
     width: 100px;
     height: inherit;
-    background-color: orange;
+    background-color: #615633;
     float: left;
     margin-left: 4px;
     margin-right: 4px;
     text-align: center;
-    font-family: arial;
+    font-family: cursive;
+    box-sizing: border-box;
+    padding-top: 5px;
+    border-radius: 10px;
+    line-height: 15px;
+    cursor: pointer;
+}
+
+#containerMenu li:hover{
+    transition: 0.5s;
+    border-bottom: 5px solid #ffa200;
+    color: #ffa200;
+    transform: scale(1.1);
 }
 
 #containerLogin{
     width: 300px;
     height: 65px;
-    background-color: maroon;
     float: left;
     margin-left: 20px;
 }
 
+#containerLogin input[type="submit"]{
+    height: 36px;
+    margin-top: 23px;
+    background-color: #615633;
+    border: 2px solid black;
+    outline-color: #ffa200;
+    font-family: arial;
+}
+#containerLogin input[type="submit"]:active{
+    background-color: #ffa200;
+    transition: 0.2s;
+}
+
 .camposLogin{
-    width: 140px;
+    width: 120px;
     height: inherit;
     float: left;
-    background-color: rebeccapurple;
     margin-left: 5px;
     margin-right: 5px;
+    font-family: arial;
+    box-sizing: border-box;
+    padding-top: 5px;
+    color: #ffa200;
+}
+
+.camposLogin input[type="text"]{
+    width: 98%;
+    height: 30px;
+    font-size: 20px;
+    outline-color: #ffa200;
+    font-family: arial;
+}
+
+/*Area do cabeçalho*/
+header{
+    width: 100%;
+    height: 280px;
+    background-color: #615633;
+}
+
+header .container{
+    background-color: rgba(255, 162, 0, 0.8);
+}
+
+/*Area dos produtos*/
+#areaProdutos{
+    width: 100%;
+    min-height: 400px;
+    height: auto;
+    background-color: brown;
+}
+
+#areaProdutos .container{
+    background-color: gray;
+    min-height: inherit;
+    height: auto;
 }

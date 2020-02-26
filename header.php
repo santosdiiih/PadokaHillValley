@@ -1,24 +1,48 @@
 <nav>
     <div class="container">
-        <figure id="logo">
-            <img src="https://prgbrasil.com/wp-content/themes/consultix/images/no-image-found-360x250.png">
-        </figure>
+        <a href="index.php">
+            <figure id="logo">
+                <img src="img/logo.jpg" alt="Padoka Hills Valley" title="Padoka Logotipo">
+            </figure>
+        </a>
         <ul id="containerMenu">
-            <li>Home</li>
-            <li>Curiosidades</li>
-            <li>Sobre a empresa</li>
-            <li>Promoções</li>
-            <li>Nossas Lojas</li>
-            <li>Produto do mês</li>
-            <li>Contato</li>
+            <a href="index.php">
+                <li>Home</li>
+            </a>
+            <a href="#">
+                <li>Curiosidades</li>
+            </a>
+            <a href="#">
+                <li>Sobre</li>
+            </a>
+            <a href="#">
+                <li>Promoções</li>
+            </a>
+            <a href="#">
+                <li>Nossas Lojas</li>
+            </a>
+            <a href="#">
+                <li>Produto do mês</li>
+            </a>
+            <a href="#">
+                <li>Contato</li>
+            </a>
         </ul>
-        <div id="containerLogin">
+        <form name="frmLogin" method="post" action="" id="containerLogin">
             <div class="camposLogin">
-                
+                Usuário
+                <input type="text" name="txtLogin" value="">
             </div>
             <div class="camposLogin">
-                
+                Senha
+                <input type="text" name="txtLogin" value="">
             </div>
-        </div>
+            <input type="submit" name="btnLogin" value="OK">
+        </form>
     </div>
 </nav>
+<header>
+    <div class="container">
+        
+    </div>
+</header>
