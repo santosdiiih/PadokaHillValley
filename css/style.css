@@ -1,153 +1,46 @@
-/*RESET CSS*/
-body, nav,figure, ul, li, a{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-}
-
-/*PADRONIZAÇÃO NAS PAGINAS*/
-.container{
-    width: 1250px;
-    height: inherit;
-    margin-left: auto;
-    margin-right: auto;
-    box-sizing: border-box;
-    /* background-color: green; */
-}
-
-img{
-    width: inherit;
-    height: inherit;
-}
-
-a{
-    width: inherit;
-    height: inherit;
-}
-
-/*AREA DO MENU*/
-
-nav{
-    width: 100%;
-    height: 77px;
-    background-color: #17150f;
-}
-
-nav .container{
-    padding-top: 6px;
-}
-
-#logo{
-    width: 140px;
-    height: 65px;
-    background-color: aqua;
-    float: left;
-    border-radius: 15px;
-    border: 1px solid black;
-}
-
-#logo img{
-    border-radius: 14px;
-}
-
-#containerMenu{
-    width: 756px;
-    height: 45px;
-    margin-left: 25px;
-    margin-top: 20px;
-    float: left;
-}
-
-#containerMenu a{
-    text-decoration: none;
-    color: #000;
-}
-
-#containerMenu li{
-    width: 100px;
-    height: inherit;
-    background-color: #615633;
-    float: left;
-    margin-left: 4px;
-    margin-right: 4px;
-    text-align: center;
-    font-family: cursive;
-    box-sizing: border-box;
-    padding-top: 5px;
-    border-radius: 10px;
-    line-height: 15px;
-    cursor: pointer;
-}
-
-#containerMenu li:hover{
-    transition: 0.5s;
-    border-bottom: 5px solid #ffa200;
-    color: #ffa200;
-    transform: scale(1.1);
-}
-
-#containerLogin{
-    width: 300px;
-    height: 65px;
-    float: left;
-    margin-left: 20px;
-}
-
-#containerLogin input[type="submit"]{
-    height: 36px;
-    margin-top: 23px;
-    background-color: #615633;
-    border: 2px solid black;
-    outline-color: #ffa200;
-    font-family: arial;
-}
-#containerLogin input[type="submit"]:active{
-    background-color: #ffa200;
-    transition: 0.2s;
-}
-
-.camposLogin{
-    width: 120px;
-    height: inherit;
-    float: left;
-    margin-left: 5px;
-    margin-right: 5px;
-    font-family: arial;
-    box-sizing: border-box;
-    padding-top: 5px;
-    color: #ffa200;
-}
-
-.camposLogin input[type="text"]{
-    width: 98%;
-    height: 30px;
-    font-size: 20px;
-    outline-color: #ffa200;
-    font-family: arial;
-}
-
-/*Area do cabeçalho*/
-header{
-    width: 100%;
-    height: 280px;
-    background-color: #615633;
-}
-
-header .container{
-    background-color: rgba(255, 162, 0, 0.8);
+body{
+    background-image: url(../img/back2.jpg);
 }
 
 /*Area dos produtos*/
+.formataMenu{
+    font-family: arial;
+    font-size: 20px;
+    color: white;
+    box-sizing: border-box;
+    padding: 18px;
+    cursor: pointer;
+}
 #areaProdutos{
     width: 100%;
-    min-height: 400px;
+    min-height: 456px;
     height: auto;
-    background-color: brown;
+/*    background-color: #fff;*/
+    margin-bottom: 120px;
 }
 
 #areaProdutos .container{
-    background-color: gray;
+    background-color: rgba(1, 1, 1, 0.9);
     min-height: inherit;
     height: auto;
+    border: 2px solid black;
+}
+
+#filtroDosProdutos{
+    width: 250px;
+    min-height: inherit;
+    height: auto;
+    border-right: 2px solid black;
+}
+
+.filtroOpcao{
+    width: inherit;
+    height: 60px;
+    background-color: #1f1f1f;
+    border-bottom: 2px solid black;
+}
+
+.filtroOpcao:hover{
+    transition: 0.5s;
+    background-color: #db9a00;
 }
