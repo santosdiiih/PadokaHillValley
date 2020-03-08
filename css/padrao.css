@@ -145,6 +145,20 @@ header .container{
     background-color: rgba(255, 162, 0, 0.8);
 }
 
+#containerRedesSociais{
+    width: 50px;
+    min-height: 45px;
+    height: auto;
+    position: fixed;
+    float: right;
+    margin-left: 96.4%;
+}
+
+.redeSocial{
+    width: inherit;
+    height: 50px;
+}
+
 /* Area do rodapé */
 footer{
     width: 100%;

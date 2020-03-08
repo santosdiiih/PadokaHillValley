@@ -43,6 +43,18 @@
 </nav>
 <header>
     <div class="container">
-        
     </div>
 </header>
+<div id="containerRedesSociais">
+    <figure class="redeSocial">
+        <a href="#" target="_blank">
+            <img src="img/facebook.png" alt="Página no Facebook" title="Página no Facebook">
+        </a>
+        <a href="#" target="_blank">
+            <img src="img/instagram.png" alt="Página no Instagram" title="Página no Instagram">
+        </a>
+        <a href="#" target="_blank">
+            <img src="img/twitter.png" alt="Página no twitter" title="Página no twitter">
+        </a>
+    </figure>
+</div>
