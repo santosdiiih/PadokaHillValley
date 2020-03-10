@@ -1,0 +1,42 @@
+#slideShow{
+    width: 1250px;
+    height: inherit;
+    overflow: hidden;
+    margin: 0 auto;
+    position: absolute;
+}
+
+#slideShow li{
+    width: inherit;
+    height: inherit;
+}
+
+.slideButtons{
+    position: absolute;
+    z-index: 997;
+    width: 60px;
+    height: inherit;
+    background-color: rgba(0,0,0,0.5);
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 72px;
+    font-size: 72px;
+    color: white;
+    font-family: cursive;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+#next{
+    margin-left: 1190px;
+}
+
+header .container:hover > .slideButtons{
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.botao:hover{
+    transition: 0.5s;
+    transform: scale(1.2);
+}

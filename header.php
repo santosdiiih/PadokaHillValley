@@ -18,7 +18,7 @@
             <a href="#">
                 <li>Promoções</li>
             </a>
-            <a href="#">
+            <a href="nossas_lojas.php">
                 <li>Nossas Lojas</li>
             </a>
             <a href="#">
@@ -39,22 +39,37 @@
             </div>
             <input type="submit" name="btnLogin" value="OK">
         </form>
+        <div id="containerRedesSociais">
+            <figure class="redeSocial">
+                <a href="#" target="_blank">
+                    <img src="img/facebook.png" alt="Página no Facebook" title="Página no Facebook">
+                </a>
+                <a href="#" target="_blank">
+                    <img src="img/instagram.png" alt="Página no Instagram" title="Página no Instagram">
+                </a>
+                <a href="#" target="_blank">
+                    <img src="img/twitter.png" alt="Página no twitter" title="Página no twitter">
+                </a>
+            </figure>
+        </div>
     </div>
 </nav>
 <header>
     <div class="container">
+        <ul id="slideShow">
+            <li><img src="img/slide/img1.jpg"></li>
+            <li><img src="img/slide/img2.jpg"></li>
+            <li><img src="img/slide/img3.jpg"></li>
+            <li><img src="img/slide/img4.jpg"></li>
+            <li><img src="img/slide/img5.jpg"></li>
+            <li><img src="img/slide/img6.jpg"></li>
+            <li><img src="img/slide/img7.jpg"></li>
+        </ul>
+        <a class="slideButtons" id="previous" href="#">
+            <div class="botao">&laquo;</div>
+        </a>
+        <a class="slideButtons" id="next" href="#">
+            <div class="botao">&raquo;</div>
+        </a>
     </div>
 </header>
-<div id="containerRedesSociais">
-    <figure class="redeSocial">
-        <a href="#" target="_blank">
-            <img src="img/facebook.png" alt="Página no Facebook" title="Página no Facebook">
-        </a>
-        <a href="#" target="_blank">
-            <img src="img/instagram.png" alt="Página no Instagram" title="Página no Instagram">
-        </a>
-        <a href="#" target="_blank">
-            <img src="img/twitter.png" alt="Página no twitter" title="Página no twitter">
-        </a>
-    </figure>
-</div>

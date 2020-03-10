@@ -1,0 +1,14 @@
+Para criar slide com JavaScript:
+https://www.devmedia.com.br/criando-banners-e-slides-simples-com-javascript/37260
+
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
+
+https://getbootstrap.com/
+
+https://www.json.org/json-pt.html
+
+https://www.howjavascriptworks.com/
+
+
+tabela de cores:
+https://color.adobe.com/pt/create
