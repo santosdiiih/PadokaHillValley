@@ -13,7 +13,6 @@ body, nav,figure, ul, li, a, h1{
     margin-left: auto;
     margin-right: auto;
     box-sizing: border-box;
-    /* background-color: green; */
 }
 
 img{
@@ -27,14 +26,17 @@ a{
 }
 
 h1{
-    color: #404140;
+    color: #1f1f1f;
     text-align: center;
-    font-family: Comic Sans MS;
+    font-family: sans-serif;
+    font-size: 2em;
     width: 100%;
     min-height: 60px;
     height: auto;
     box-sizing: border-box;
     padding-top: 5px;
+    box-sizing: border-box;
+    padding-top: 10px;
 }
 
 /*AREA DO MENU*/
@@ -91,6 +93,7 @@ nav .container{
     line-height: 15px;
     cursor: pointer;
     color: #000;
+    font-weight: bold;
 }
 
 #containerMenu li:hover{
@@ -200,15 +203,13 @@ footer a{
 #botaoSistemaInterno{
     width: 150px;
     height: 60px;
-    background-color: #7a6d42;
     margin-left: 50px;
     text-align: center;
     box-sizing: border-box;
     padding-top: 20px;
     font-family: arial;
     font-size: 18px;
-    border-radius: 10px;
-    color: #000;
+    color: #fff;
     cursor: pointer;
     float: left;
     margin-right: 200px;
@@ -216,7 +217,7 @@ footer a{
 
 #botaoSistemaInterno:hover{
     transition: 0.5s;
-    color: #ffb300;
+    color: #fe7c00;
 }
 
 #footerEndereco{
