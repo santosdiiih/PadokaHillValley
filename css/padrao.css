@@ -95,8 +95,8 @@ nav .container{
 
 #containerMenu li:hover{
     transition: 0.5s;
-    border-bottom: 5px solid #ef2707;
-    color: #ef2707;
+    border-bottom: 5px solid #fe7c00;
+    color: #fe7c00;
     transform: scale(1.1);
 }
 
@@ -109,15 +109,19 @@ nav .container{
 
 #containerLogin input[type="submit"]{
     height: 36px;
-    margin-top: 23px;
-    background-color: #7a6d42;
-    border: 2px solid black;
+    margin-top: 26px;
+    background-color: #ab5300;
+    border: 1px solid black;
     outline-color: #ffa200;
     font-family: arial;
+    font-size: 0.9em;
+    font-weight: bold;
     cursor: pointer;
+    border-radius: 5px;
+    outline: none;
 }
 #containerLogin input[type="submit"]:active{
-    background-color: #ffa200;
+    background-color: #fe7c00;
     transition: 0.2s;
 }
 
@@ -128,16 +132,18 @@ nav .container{
     margin-left: 5px;
     margin-right: 5px;
     font-family: arial;
+    font-size: 1.1em;
     box-sizing: border-box;
     padding-top: 5px;
     color: #ffa200;
+    font-weight: bold;
 }
 
 .camposLogin input[type="text"]{
     width: 98%;
     height: 30px;
     font-size: 20px;
-    outline-color: #ffa200;
+    outline-color: #fe7c00;
     font-family: arial;
 }
 
@@ -243,14 +249,6 @@ footer .container > #footerEndereco{
     transition: 0.5s;
     transform: scale(1.1);
 }
-
-/*
-#iconeApp img{
-    width: 60px;
-    height: 60px;
-    margin-left: 5px;
-}
-*/
 
 #botaoBaixarApp{
     width: 180px;

@@ -14,27 +14,29 @@
 .slideButtons{
     position: absolute;
     z-index: 997;
-    width: 60px;
-    height: inherit;
-    background-color: rgba(0,0,0,0.5);
+    width: 115px;
+    height: 115px;
+    background-color: rgba(0,0,0,0.7);
     text-align: center;
     box-sizing: border-box;
-    padding-top: 72px;
-    font-size: 72px;
-    color: white;
+    font-size: 4.5em;
     font-family: cursive;
     opacity: 0;
     transition: 0.5s;
-    color: #ff7b66;
+    color: #fe7c00;
+    border-radius: 100%;
+    border: 2px solid #fff;
 }
 
 #next{
-    margin-left: 1190px;
+    right: 0;
+    margin-right: 49px;
 }
 
 header .container:hover > .slideButtons{
     transition: 0.5s;
     opacity: 1;
+    margin-top: 80px;
 }
 
 .botao:hover{

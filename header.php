@@ -2,7 +2,7 @@
     <div class="container">
         <a href="index.php">
             <figure id="logo">
-                <img src="img/logo.jpg" alt="Padoka Hills Valley" title="Padoka Logotipo">
+                <img src="img/logo2.jpg" alt="Padoka Hills Valley" title="Padoka Logotipo">
             </figure>
         </a>
         <ul id="containerMenu">
