@@ -155,10 +155,12 @@ header{
     padding-top: 77px;
     width: 100%;
     height: 280px;
+/*
     background-color: #615633;
     background-image: url(../img/back1.jpg);
     background-size: cover;
     background-attachment: fixed;
+*/
 }
 
 header .container{

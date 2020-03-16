@@ -9,7 +9,7 @@
             <a href="index.php">
                 <li>Home</li>
             </a>
-            <a href="#">
+            <a href="curiosidades.php">
                 <li>Curiosidades</li>
             </a>
             <a href="#">

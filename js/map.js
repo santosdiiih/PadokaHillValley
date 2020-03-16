@@ -14,8 +14,8 @@ L.tileLayer(provedorDoMapa, {
 
 let iconeDoMarcador = L.icon({
     iconUrl: 'img/pin.png',
-    iconSize: [60, 60],
-    iconAnchor: [30, 60],
+    iconSize: [40, 40],
+    iconAnchor: [20, 40],
 });
 
 //Removendo o efeito de adicionar zoom ao dar Double CLick no mapa
