@@ -5,7 +5,7 @@
         </div>
         <div id="footerEndereco">
             Endereço:
-            <a href="https://goo.gl/maps/pejwxxympYwoWM8M6" target="_blank">Rua Elton Silva, 905 - Centro, Jandira - SP, 06600-025</a>
+            <a href="https://goo.gl/maps/pejwxxympYwoWM8M6" target="_blank">Av. Luis Carlos Berrini, no 666.</a>
         </div>
         <div id="containerAppDownload">
             <figure id="iconeApp">
