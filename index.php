@@ -126,9 +126,9 @@
                 </div>
             </div>
         </div>
-        <script type="text/javascript" src="js/jquery.js"></script>
-        <script type="text/javascript" src="js/cycle2.js"></script>
-        <script type="text/javascript" src="js/slide.js"></script>
+        <script src="js/jquery.js"></script>
+        <script src="js/cycle2.js"></script>
+        <script src="js/slide.js"></script>
         <?php include_once('footer.php')?>
     </body>
 </html>

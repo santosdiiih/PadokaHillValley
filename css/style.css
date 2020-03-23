@@ -235,16 +235,195 @@ body{
 
 #areaDasCuriosidades h1{
     background-color: #fff;
-    color: #fe7c00;
+    color: #404040;
+    font-family: Arial;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-bottom: 25px;
 }
 
 #areaDasCuriosidades .container{
     background-color: rgba(207, 207, 207, 0.8);
     min-height: inherit;
     height: auto;
+    box-sizing: border-box;
+    padding-top: 20px;
 }
 
-.faixa-curiosidades{
-    width: inherit;
+.cardCuriosidades{
+    width: 1200px;
+    min-height: 150px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.cardCuriosidades figure{
+    width: 300px;
     height: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    float: left;
+    margin-right: 30px;
+}
+
+.cardCuriosidades img{
+    border-radius: inherit;
+}
+
+.cardCuriosidades p{
+    width: 830px;
+    min-height: 150px;
+    height: auto;
+    background-color: #fff;
+    float: left;
+    margin-top: 0;
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 25px;
+    line-height: 25px;
+}
+
+/* Area das Promocoes */
+#areaDasPromocoes{
+    width: 100%;
+    min-height: 200px;
+    height: auto;
+    box-sizing: border-box;
+    padding-bottom: 150px;
+}
+
+#areaDasPromocoes .container{
+    background-color: rgba(207, 207, 207, 0.8);
+    min-height: inherit;
+    height: auto;
+    box-sizing: border-box;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    border-radius: 0 0 10px 10px;
+}
+
+.CardContainerPromocao{
+    width: 1180px;
+    min-height: 200px;
+    height: auto;
+    box-sizing: border-box;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    overflow: hidden;
+    padding-bottom: 25px;
+    margin-bottom: 10px;
+}
+
+.CardContainerPromocao h1{
+    margin-bottom: 10px;
+}
+
+.promocaoCard{
+    width: 275px;
+    min-height: 275px;
+    height: auto;
+    background-color: #fe7c00;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding-top: 18px;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+
+.promocaoCard figure{
+    width: 120px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+}
+
+.nomePromocao{
+    width: 235px;
+    min-height: 30px;
+    height: auto;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: arial;
+    font-size: 1.1em;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.descricaoPromocao{
+    width: 235px;
+    min-height: 55px;
+    height: auto;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 5px;
+    font-family: arial;
+    font-size: 1.1em;
+}
+
+/* Area de Contato */
+
+#areaContato{
+    width: 100%;
+    min-height: 200px;
+    height: auto;
+}
+
+#areaContato .container{
+    background-color: rgba(207, 207, 207, 0.8);
+    min-height: inherit;
+    height: auto;
+    box-sizing: border-box;
+    padding: 25px;
+    border-radius: 0 0 10px 10px;
+}
+
+#areaContato h1{
+    width: 350px;
+    height: 70px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-radius: 5px 5px 20px 20px;
+}
+
+.camposContato{
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.formataTexto{
+    font-family: arial;
+    font-size: 1.2em;
+}
+
+.inputTxtContato{
+    
 }

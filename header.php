@@ -6,27 +6,43 @@
             </figure>
         </a>
         <ul id="containerMenu">
-            <a href="index.php">
-                <li>Home</li>
-            </a>
-            <a href="curiosidades.php">
-                <li>Curiosidades</li>
-            </a>
-            <a href="#">
-                <li>Sobre</li>
-            </a>
-            <a href="#">
-                <li>Promoções</li>
-            </a>
-            <a href="nossas_lojas.php">
-                <li>Nossas Lojas</li>
-            </a>
-            <a href="#">
-                <li>Produto do mês</li>
-            </a>
-            <a href="#">
-                <li>Contato</li>
-            </a>
+            <li>
+                <a href="index.php">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="curiosidades.php">
+                    Curiosidades
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    Sobre
+                </a>
+            </li>
+            
+            <li>
+                <a href="promocoes.php">
+                    Promoções
+                </a>
+            </li>
+            <li>
+                <a href="nossas_lojas.php">
+                    Nossas Lojas
+                </a>
+            </li>
+            
+            <li>
+                <a href="#">
+                    Produto do mês
+                </a>
+            </li>
+            <li>
+                <a href="contato.php">
+                    Contato
+                </a>
+            </li>
         </ul>
         <form name="frmLogin" method="post" action="" id="containerLogin">
             <div class="camposLogin">
@@ -35,7 +51,7 @@
             </div>
             <div class="camposLogin">
                 Senha
-                <input type="text" name="txtLogin" value="">
+                <input type="password" name="passSenha" value="">
             </div>
             <input type="submit" name="btnLogin" value="OK">
         </form>
@@ -57,13 +73,13 @@
 <header>
     <div class="container">
         <ul id="slideShow">
-            <li><img src="img/slide/img1.jpg"></li>
-            <li><img src="img/slide/img2.jpg"></li>
-            <li><img src="img/slide/img3.jpg"></li>
-            <li><img src="img/slide/img4.jpg"></li>
-            <li><img src="img/slide/img5.jpg"></li>
-            <li><img src="img/slide/img6.jpg"></li>
-            <li><img src="img/slide/img7.jpg"></li>
+            <li><img src="img/slide/img1.jpg" alt="slide-img" title="slide-img"></li>
+            <li><img src="img/slide/img2.jpg" alt="slide-img" title="slide-img"></li>
+            <li><img src="img/slide/img3.jpg" alt="slide-img" title="slide-img"></li>
+            <li><img src="img/slide/img4.jpg" alt="slide-img" title="slide-img"></li>
+            <li><img src="img/slide/img5.jpg" alt="slide-img" title="slide-img"></li>
+            <li><img src="img/slide/img6.jpg" alt="slide-img" title="slide-img"></li>
+            <li><img src="img/slide/img7.jpg" alt="slide-img" title="slide-img"></li>
         </ul>
         <a class="slideButtons" id="previous" href="#">
             <div class="botao">&laquo;</div>
