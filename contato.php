@@ -17,19 +17,73 @@
                 <form name="frmContato" method="post" action="">
                     
                     <div class="camposContato">
-                        <div class="formataTexto">
+                        <div class="containerTexto formataTexto">
                             Nome:
                         </div>
-                        <input type="text" name="txtNome" class="inputTxtContato">
+                        <input type="text" name="txtNome" class="campoDeEntrada">
                     </div>
                     
+                    <div class="camposContato">
+                        <div class="containerTexto formataTexto">
+                            Telefone:
+                        </div>
+                        <input type="text" name="txtTelefone" class="campoDeEntrada">
+                    </div>
+                    
+                    <div class="camposContato">
+                        <div class="containerTexto formataTexto">
+                            Celular:
+                        </div>
+                        <input type="text" name="txtCelular" class="campoDeEntrada">
+                    </div>
+                    
+                    <div class="camposContato">
+                        <div class="containerTexto formataTexto">
+                            Email:
+                        </div>
+                        <input type="text" name="txtEmail" class="campoDeEntrada">
+                    </div>
+                    
+                    <div class="camposContato">
+                        <div class="containerTexto formataTexto">
+                            Link do Facebook:
+                        </div>
+                        <input type="text" name="txtFacebook" class="campoDeEntrada">
+                    </div>
+                    
+                    <div class="camposContato">
+                        <div class="containerTexto formataTexto">
+                            Sujestões:
+                        </div>
+                        <textarea name="txtSujestao" class="textarea"></textarea>
+                    </div>
+                    
+                    <div class="camposContato">
+                        <div class="containerTexto formataTexto">
+                            Mensagem:
+                        </div>
+                        <textarea name="txtMensagem" class="textarea"></textarea>
+                    </div>
+                    
+                    <div class="camposContato">
+                        <div class="containerTexto formataTexto">
+                            Sexo:
+                        </div>
+                        <select name="slcSexo" id="campoSelect">
+                            <option value="m">Masculino</option>
+                            <option value="f">Feminino</option>
+                            <option value="o">Outros</option>
+                        </select>
+                        <input type="text" id="campoSexoOutros" name="txtOutros">
+                    </div>
                 </form>
             </div>
         </div>
         
-        <script type="text/javascript" src="js/jquery.js"></script>
-        <script type="text/javascript" src="js/cycle2.js"></script>
-        <script type="text/javascript" src="js/slide.js"></script>
+        <script src="js/jquery.js"></script>
+        <script src="js/cycle2.js"></script>
+        <script src="js/slide.js"></script>
+        <script src="js/contatos.js"></script>
         <?php include_once('footer.php') ?>
     </body>
 </html>

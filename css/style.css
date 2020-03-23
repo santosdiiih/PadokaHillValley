@@ -390,6 +390,8 @@ body{
     width: 100%;
     min-height: 200px;
     height: auto;
+    box-sizing: border-box;
+    padding-bottom: 150px;
 }
 
 #areaContato .container{
@@ -412,18 +414,74 @@ body{
 }
 
 .camposContato{
-    width: 100%;
-    height: 80px;
+    width: 500px;
+    min-height: 80px;
+    height: auto;
     background-color: #fff;
     box-sizing: border-box;
     padding: 10px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 40px;
 }
 
 .formataTexto{
     font-family: arial;
     font-size: 1.2em;
+    color: #000;
+    text-align: center;
 }
 
-.inputTxtContato{
-    
+.containerTexto{
+    width: 120px;
+    min-height: 50px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.campoDeEntrada{
+    height: 30px;
+    width: 350px;
+    display: flex;
+    font-size: 1.1em;
+    box-sizing: border-box;
+    padding-left: 5px;
+}
+
+.textarea{
+    width: 350px;
+    height: 60px;
+    display: flex;
+    font-size: 1.1em;
+    box-sizing: border-box;
+    padding-left: 5px;
+    resize: none;
+}
+
+#campoSelect{
+    height: 30px;
+    width: 120px;
+    display: flex;
+    font-size: 1.1em;
+    box-sizing: border-box;
+    padding-left: 5px;
+    border-radius: 5px;
+    outline: none;
+    margin-right: 10px;
+}
+
+#campoSexoOutros{
+    width: 180px;
+    height: 30px;
+    font-size: 1.1em;
+    box-sizing: border-box;
+    padding-left: 5px;
+    display: none;
 }
