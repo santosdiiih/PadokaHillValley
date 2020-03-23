@@ -162,6 +162,7 @@ body{
     text-align: center;
     box-sizing: border-box;
     font-family: arial;
+    user-select: none;
 }
 
 .card-rua-cidade{
@@ -182,6 +183,11 @@ body{
     min-height: 25px;
     height: auto;
     font-size: 1.1em;
+    line-height: 18px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-sizing: border-box;
 }
 
 .card-rua-contato{
@@ -206,7 +212,7 @@ body{
     font-weight: bold;
     color: #fff;
     cursor: pointer;
-    user-select: none;
+    margin-bottom: 15px;
 }
 
 .button-localizar:hover{

@@ -5,7 +5,7 @@ const provedorDoMapa = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
 const cordenadaInicial = [-23.54033, -46.96644];
 
 //Variável onde alocamos o mapa e definimos as coordenadas iniciais e seu zoom
-let mapaDaPagina = L.map('myMap').setView(cordenadaInicial, 13);
+let mapaDaPagina = L.map('myMap').setView(cordenadaInicial, 10);
 
 //aidiconando a imagem do mapa no mapa
 L.tileLayer(provedorDoMapa, {
@@ -19,15 +19,16 @@ let iconeDoMarcador = L.icon({
 });
 
 //Removendo o efeito de adicionar zoom ao dar Double CLick no mapa
-mapaDaPagina.doubleClickZoom.disable();
+//mapaDaPagina.doubleClickZoom.disable();
 
 //adicionando um evento que ao dar double click o mapa se redireciona para determinada coordenada
-mapaDaPagina.addEventListener('dblclick', e => {
-    let coordenada = mapaDaPagina.mouseEventToLatLng(e.originalEvent);
-    L.marker([coordenada.lat, coordenada.lng], {icon: iconeDoMarcador}).addTo(mapaDaPagina);
-    //exibindo no console a coordenada
-    console.log(coordenada);
-});
+
+//mapaDaPagina.addEventListener('dblclick', e => {
+//    let coordenada = mapaDaPagina.mouseEventToLatLng(e.originalEvent);
+//    L.marker([coordenada.lat, coordenada.lng], {icon: iconeDoMarcador}).addTo(mapaDaPagina);
+//    //exibindo no console a coordenada
+//    console.log(coordenada);
+//});
 
 
 //função que recebe a localização do navegador
@@ -45,4 +46,5 @@ navigator.geolocation.getCurrentPosition(
         timeout: 5000,
         maximumAge: 0,
     }
-)
+);
+

@@ -16,20 +16,7 @@
 
                 </div>
                 <div id="containerLojas">
-                    <div class="cardLojas">
-                        <div class="card-rua-cidade">
-                            ITAPEVI - SP
-                        </div>
-                        <div class="card-rua-detalhada">
-                            ROD. ENG. RENÊ BENEDITO DA SILVA 3338
-                        </div>
-                        <div class="card-rua-contato">
-                            Telefone: (11)94002-8922
-                        </div>
-                        <div class="button-localizar">
-                            LOCALIZAR
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -39,5 +26,6 @@
         <script type="text/javascript" src="js/slide.js"></script>
         <script src="leaflet/leaflet.js" type="text/javascript"></script>
         <script type="text/javascript" src="js/map.js"></script>
+        <script type="text/javascript" src="js/locations.js"></script>
     </body>
 </html>
