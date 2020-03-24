@@ -1,4 +1,5 @@
-#slideShow{
+@media screen and (min-device-width: 1350px){
+    #slideShow{
     width: 1250px;
     height: inherit;
     overflow: hidden;
@@ -45,4 +46,10 @@ header .container:hover > .slideButtons{
 .botao:hover{
     transition: 0.5s;
     transform: scale(1.2);
+}
+}
+@media screen and (max-device-width: 700px){
+    #slideShow, .slideButtons{
+        display: none;
+    }
 }

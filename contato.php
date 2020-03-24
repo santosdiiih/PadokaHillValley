@@ -70,11 +70,20 @@
                             Sexo:
                         </div>
                         <select name="slcSexo" id="campoSelect">
+                            <option value="--">Selecione o sexo</option>
                             <option value="m">Masculino</option>
                             <option value="f">Feminino</option>
-                            <option value="o">Outros</option>
+                            <option value="o">Prefiro não dizer</option>
                         </select>
-                        <input type="text" id="campoSexoOutros" name="txtOutros">
+                    </div>
+                    <div class="camposContato">
+                        <div class="containerTexto formataTexto">
+                            Profissão:
+                        </div>
+                        <input type="text" name="txtProfissao" class="campoDeEntrada">
+                    </div>
+                    <div class="camposContato">
+                        <input type="submit" name="smtContato" value="enviar" id="buttonEnviar">
                     </div>
                 </form>
             </div>

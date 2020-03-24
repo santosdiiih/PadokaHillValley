@@ -1,10 +1,10 @@
 <nav>
     <div class="container">
-        <a href="index.php">
             <figure id="logo">
-                <img src="img/logo2.jpg" alt="Padoka Hills Valley" title="Padoka Logotipo">
+                <a href="index.php">
+                    <img src="img/logo2.jpg" alt="Padoka Hills Valley" title="Padoka Logotipo">
+                </a>
             </figure>
-        </a>
         <ul id="containerMenu">
             <li>
                 <a href="index.php">
@@ -17,7 +17,7 @@
                 </a>
             </li>
             <li>
-                <a href="#">
+                <a href="sobre.php">
                     Sobre
                 </a>
             </li>
@@ -34,7 +34,7 @@
             </li>
             
             <li>
-                <a href="#">
+                <a href="produto_do_mes.php">
                     Produto do mês
                 </a>
             </li>

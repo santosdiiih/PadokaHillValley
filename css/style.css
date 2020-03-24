@@ -2,7 +2,9 @@ body{
     background-image: url(../img/back2.jpg);
 }
 
-/*Area dos produtos*/
+@media screen and (min-device-width: 1350px)
+{
+ /*Area dos produtos*/
 .formataMenu{
     font-family: arial;
     font-size: 20px;
@@ -340,6 +342,7 @@ body{
     padding-top: 18px;
     border-radius: 25px;
     border: 2px solid black;
+    padding-bottom: 10px;
 }
 
 .promocaoCard figure{
@@ -382,6 +385,46 @@ body{
     padding: 5px;
     font-family: arial;
     font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.preco{
+    width: 100px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1em;
+    font-family: arial;
+    user-select: none;
+}
+
+.precoAntigo{
+    float: left;
+    color: red;
+    margin-left: 17px;
+    cursor: not-allowed;
+}
+
+.precoNovo{
+    float: right;
+    color: green;
+    margin-right: 17px;
+    cursor: pointer;
+}
+
+.precoAntigo:hover{
+    background-color: red;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.precoNovo:hover{
+    background-color: green;
+    color: #fff;
+    transition: 0.5s;
 }
 
 /* Area de Contato */
@@ -467,7 +510,7 @@ body{
 
 #campoSelect{
     height: 30px;
-    width: 120px;
+    width: 350px;
     display: flex;
     font-size: 1.1em;
     box-sizing: border-box;
@@ -477,11 +520,742 @@ body{
     margin-right: 10px;
 }
 
-#campoSexoOutros{
-    width: 180px;
+#buttonEnviar{
+    width: 120px;
     height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    font-size: 1.1em;
+    color: #000;
+    outline: none;
+}
+
+#buttonEnviar:hover{
+    border-color: #fe770c;
+}
+
+#buttonEnviar:active{
+    background-color: #fe770c;
+    color: #fff;
+}
+
+/* Area Sobre */
+#areaSobre{
+    width: 100%;
+    min-height: 300px;
+    height: auto;
+    box-sizing: border-box;
+    padding-bottom: 150px;
+}
+
+#areaSobre .container{
+    background-color: rgba(207, 207, 207, 0.8);
+    min-height: inherit;
+    height: auto;
+    box-sizing: border-box;
+    padding: 25px;
+    border-radius: 0 0 10px 10px;
+}
+
+#areaSobre p{
+    width: inherit;
+    min-height: 10px;
+    height: auto;
+    text-align: center;
+}
+
+.cardSobre{
+    width: 1200px;
+    min-height: 150px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 20px;
+    box-sizing:border-box;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+/* Area do Produto do Mes */
+#areaProdutoDoMes{
+    width: 100%;
+    min-height: 150px;
+    height: auto;
+    box-sizing: border-box;
+    padding-bottom: 150px;
+}
+
+#areaProdutoDoMes h1{
+    margin-bottom: 15px;
+}
+
+#areaProdutoDoMes .container{
+    background-color: rgba(207, 207, 207, 0.8);
+    min-height: inherit;
+    height: auto;
+    box-sizing: border-box;
+    padding: 25px;
+    border-radius: 0 0 10px 10px;
+}
+
+#containerDoProduto{
+    width: 1200px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 2px solid #fe770c;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+#nomeDoProduto{
+    width: inherit;
+    min-height: 10px;
+    height: auto;
+    font-size: 2.2em;
+    font-family: "Comic Sans MS", cursive;
+    color: #fe770c;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#imagemProdutoDoMes{
+    width: 420px;
+    height: 300px;
+    background-color: #fe770c;
+    float: left;
+    margin-left: 25px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+#descricaoProduto{
+    float: left;
+    width: 600px;
+    min-height: 100px;
+    height: auto;
+    font-size: 1.3em;
+    font-family: cursive;
+    line-height: 1.4;
+    text-align: center;
+}
+}
+
+@media screen and (max-device-width: 700px)
+{
+ /*Area dos produtos*/
+.formataMenu{
+    font-family: arial;
+    font-size: 20px;
+    color: white;
+    box-sizing: border-box;
+    padding: 18px;
+    cursor: pointer;
+}
+#areaProdutos{
+    width: 100%;
+    min-height: 456px;
+    height: auto;
+/*    background-color: #fff;*/
+    margin-bottom: 120px;
+}
+
+#areaProdutos .container{
+    background-color: rgba(207, 207, 207, 0.7);
+    min-height: inherit;
+    height: auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+#filtroDosProdutos{
+    width: 30%;
+    min-height: inherit;
+    height: auto;
+    border-right: 2px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.filtroOpcao{
+    width: 100%;
+    height: 60px;
+    background-color: #ffd8b3;
+    border-bottom: 2px solid black;
+    color: black;
+    font-weight: bold;
+    font-size: 1.0em;
+    display: flex;
+    align-items: center;
+}
+
+#containerProdutos{
+    width: 70%;
+    min-height: inherit;
+    height: auto;
+    box-sizing: border-box;
+    padding-top: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cardProduto{
+    width: 200px;
+    height: 200px;
+    background-color: #ffd8b3;
+    border: 2px solid black;
+    float: left;
+    box-sizing: border-box;
+    padding-top: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.imagemProduto{
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.textoProduto{
+    width: 90%;
+    height: 20px;
+    font-family: arial;
+    font-size: 0.9em;
+    color: black;
+    margin-bottom: 4px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.botaoDetalhes{
+    width: 80px;
+    height: 28px;
+    background-color: #ab5300;
+    color: white;
+    float: right;
+    font-family: arial;
+    font-size: 18px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    user-select: none;
+}
+
+/* Area Nossas Lojas */
+#areaDoMapa .container{
+    background-color: rgba(207, 207, 207, 0.8);
+    box-sizing: border-box;
+    padding-bottom: 130px;
+    border: 2px solid black;
+}
+
+#myMap{
+    width: 1246px;
+    height: 370px;
+    margin: 0 auto;
+    background-color: gray;
+/*    border: 2px solid #1f1f1f;*/
+    margin-bottom: 15px;
+}
+
+#containerLojas{
+    width: 800px;
+    min-height: 300px;
+    height: auto;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.cardLojas{
+    width: 375px;
+    min-height: 150px;
+    height: auto;
+    background-color: #fff;
+    margin: 10px;
+    float: left;
+    border: 2px solid #1f1f1f;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    font-family: arial;
+    user-select: none;
+}
+
+.card-rua-cidade{
+    border-radius: 7px 7px 0 0;
+    height: 40px;
+    width: 371px;
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: #ff1e00;
+    box-sizing: border-box;
+    padding-top: 6px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+.card-rua-detalhada{
+    width: 371px;
+    min-height: 25px;
+    height: auto;
+    font-size: 1.1em;
+    line-height: 18px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-sizing: border-box;
+}
+
+.card-rua-contato{
+    width: 371px;
+    min-height: 25px;
+    height: auto;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.button-localizar{
+    width: 120px;
+    height: 35px;
+    background-color: #ff1e00;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding-top: 8px;
+    border-radius: 5px;
+    bottom: 0px;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+/* Area das Curiosidades */
+#areaDasCuriosidades{
+    width: 100%;
+    min-height: 400px;
+    height: auto;
+    box-sizing: border-box;
+    padding-bottom: 130px;
+}
+
+#areaDasCuriosidades h1{
+    background-color: #fff;
+    color: #404040;
+    font-family: Arial;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+#areaDasCuriosidades .container{
+    background-color: rgba(207, 207, 207, 0.8);
+    min-height: inherit;
+    height: auto;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+
+.cardCuriosidades{
+    width: 1200px;
+    min-height: 150px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.cardCuriosidades figure{
+    width: 300px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    float: left;
+    margin-right: 30px;
+}
+
+.cardCuriosidades img{
+    border-radius: inherit;
+}
+
+.cardCuriosidades p{
+    width: 830px;
+    min-height: 150px;
+    height: auto;
+    background-color: #fff;
+    float: left;
+    margin-top: 0;
+    border-radius: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 25px;
+    line-height: 25px;
+}
+
+/* Area das Promocoes */
+#areaDasPromocoes{
+    width: 100%;
+    min-height: 200px;
+    height: auto;
+    box-sizing: border-box;
+    padding-bottom: 150px;
+}
+
+#areaDasPromocoes .container{
+    background-color: rgba(207, 207, 207, 0.8);
+    min-height: inherit;
+    height: auto;
+    box-sizing: border-box;
+    padding-bottom: 25px;
+    padding-top: 25px;
+    border-radius: 0 0 10px 10px;
+}
+
+.CardContainerPromocao{
+    width: 1180px;
+    min-height: 200px;
+    height: auto;
+    box-sizing: border-box;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    overflow: hidden;
+    padding-bottom: 25px;
+    margin-bottom: 10px;
+}
+
+.CardContainerPromocao h1{
+    margin-bottom: 10px;
+}
+
+.promocaoCard{
+    width: 275px;
+    min-height: 275px;
+    height: auto;
+    background-color: #fe7c00;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    padding-top: 18px;
+    border-radius: 25px;
+    border: 2px solid black;
+    padding-bottom: 10px;
+}
+
+.promocaoCard figure{
+    width: 120px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+}
+
+.nomePromocao{
+    width: 235px;
+    min-height: 30px;
+    height: auto;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: arial;
+    font-size: 1.1em;
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+.descricaoPromocao{
+    width: 235px;
+    min-height: 55px;
+    height: auto;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 5px;
+    font-family: arial;
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+.preco{
+    width: 100px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1em;
+    font-family: arial;
+    user-select: none;
+}
+
+.precoAntigo{
+    float: left;
+    color: red;
+    margin-left: 17px;
+    cursor: not-allowed;
+}
+
+.precoNovo{
+    float: right;
+    color: green;
+    margin-right: 17px;
+    cursor: pointer;
+}
+
+.precoAntigo:hover{
+    background-color: red;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.precoNovo:hover{
+    background-color: green;
+    color: #fff;
+    transition: 0.5s;
+}
+
+/* Area de Contato */
+
+#areaContato{
+    width: 100%;
+    min-height: 200px;
+    height: auto;
+    box-sizing: border-box;
+    padding-bottom: 150px;
+}
+
+#areaContato .container{
+    background-color: rgba(207, 207, 207, 0.8);
+    min-height: inherit;
+    height: auto;
+    box-sizing: border-box;
+    padding: 25px;
+    border-radius: 0 0 10px 10px;
+}
+
+#areaContato h1{
+    width: 350px;
+    height: 70px;
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-radius: 5px 5px 20px 20px;
+}
+
+.camposContato{
+    width: 500px;
+    min-height: 80px;
+    height: auto;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 40px;
+}
+
+.formataTexto{
+    font-family: arial;
+    font-size: 1.2em;
+    color: #000;
+    text-align: center;
+}
+
+.containerTexto{
+    width: 120px;
+    min-height: 50px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.campoDeEntrada{
+    height: 30px;
+    width: 350px;
+    display: flex;
     font-size: 1.1em;
     box-sizing: border-box;
     padding-left: 5px;
-    display: none;
+}
+
+.textarea{
+    width: 350px;
+    height: 60px;
+    display: flex;
+    font-size: 1.1em;
+    box-sizing: border-box;
+    padding-left: 5px;
+    resize: none;
+}
+
+#campoSelect{
+    height: 30px;
+    width: 350px;
+    display: flex;
+    font-size: 1.1em;
+    box-sizing: border-box;
+    padding-left: 5px;
+    border-radius: 5px;
+    outline: none;
+    margin-right: 10px;
+}
+
+#buttonEnviar{
+    width: 120px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    font-size: 1.1em;
+    color: #000;
+    outline: none;
+}
+
+#buttonEnviar:hover{
+    border-color: #fe770c;
+}
+
+#buttonEnviar:active{
+    background-color: #fe770c;
+    color: #fff;
+}
+
+/* Area Sobre */
+#areaSobre{
+    width: 100%;
+    min-height: 300px;
+    height: auto;
+    box-sizing: border-box;
+    padding-bottom: 150px;
+}
+
+#areaSobre .container{
+    background-color: rgba(207, 207, 207, 0.8);
+    min-height: inherit;
+    height: auto;
+    box-sizing: border-box;
+    padding: 25px;
+    border-radius: 0 0 10px 10px;
+}
+
+#areaSobre p{
+    width: inherit;
+    min-height: 10px;
+    height: auto;
+    text-align: center;
+}
+
+.cardSobre{
+    width: 1200px;
+    min-height: 150px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 20px;
+    box-sizing:border-box;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+/* Area do Produto do Mes */
+#areaProdutoDoMes{
+    width: 100%;
+    min-height: 150px;
+    height: auto;
+    box-sizing: border-box;
+    padding-bottom: 150px;
+}
+
+#areaProdutoDoMes h1{
+    margin-bottom: 15px;
+}
+
+#areaProdutoDoMes .container{
+    background-color: rgba(207, 207, 207, 0.8);
+    min-height: inherit;
+    height: auto;
+    box-sizing: border-box;
+    padding: 25px;
+    border-radius: 0 0 10px 10px;
+}
+
+#containerDoProduto{
+    width: 1200px;
+    height: 400px;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 2px solid #fe770c;
+    box-sizing: border-box;
+    padding-top: 10px;
+}
+
+#nomeDoProduto{
+    width: inherit;
+    min-height: 10px;
+    height: auto;
+    font-size: 2.2em;
+    font-family: "Comic Sans MS", cursive;
+    color: #fe770c;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#imagemProdutoDoMes{
+    width: 420px;
+    height: 300px;
+    background-color: #fe770c;
+    float: left;
+    margin-left: 25px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+#descricaoProduto{
+    float: left;
+    width: 600px;
+    min-height: 100px;
+    height: auto;
+    font-size: 1.3em;
+    font-family: cursive;
+    line-height: 1.4;
+    text-align: center;
+}
 }
