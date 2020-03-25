@@ -2,7 +2,7 @@ body{
     background-image: url(../img/back2.jpg);
 }
 
-@media screen and (min-device-width: 1350px)
+@media screen and (min-device-width: 1200px)
 {
  /*Area dos produtos*/
 .formataMenu{
